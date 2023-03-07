@@ -35,25 +35,21 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Client
-
-Key Features
-
-**[Leaderboard-setup-branch]**
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Leaderboard-setup-branch]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- See live here : ().
+- **[Add Score]**
+- **[Sort Score]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,7 +62,7 @@ Key Features
 In order to run this project you need:
 
 ```sh
- to use Git, Webpack and linters.
+ Git, Webpack and linters.
  vs code
 ```
 
@@ -75,7 +71,7 @@ In order to run this project you need:
 Clone this repository to your desired folder: (https://github.com/HERMON-1995/Leaderboard-list-app-project)
 
 ```sh
-  cd my-folder
+  cd Leaderboard-list-app-project
   git clone [https://github.com/HERMON-1995/Leaderboard-list-app-project.git]
 ```
 ### Install
@@ -87,14 +83,26 @@ Clone this repository to your desired folder: (https://github.com/HERMON-1995/Le
  npm install
  ```
 
- 
 ### Usage
 
-- Used Gitflow: development as a default branch.
+```sh
+npm run build
+```
+```sh
+npm start
+```
 
 ### Run tests
 
-- Linter tests run: in Html, CSS and JS.
+```sh
+npx hint .
+```
+```sh
+npx stylelint "**/*.{css,scss}"
+```
+```sh
+npx eslint .
+```
 
 ### Deployment
 
@@ -117,7 +125,7 @@ Clone this repository to your desired folder: (https://github.com/HERMON-1995/Le
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-    #[Data-API-branch]
+    #[Implement API for Data Storage]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +133,7 @@ Clone this repository to your desired folder: (https://github.com/HERMON-1995/Le
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+- Issues: [https://github.com/HERMON-1995/Leaderboard-list-app-project/issues/2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +141,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please show support.
+If you like this project please show support by staring.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
