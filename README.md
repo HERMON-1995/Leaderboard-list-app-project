@@ -68,11 +68,11 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder: (https://github.com/HERMON-1995/Leaderboard-list-app-project)
+Clone this repository to your desired folder:
 
 ```sh
   cd Leaderboard-list-app-project
-  git clone [https://github.com/HERMON-1995/Leaderboard-list-app-project.git]
+  git clone https://github.com/HERMON-1995/Leaderboard-list-app-project.git
 ```
 ### Install
  
