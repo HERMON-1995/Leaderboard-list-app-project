@@ -80,7 +80,9 @@ Clone this repository to your desired folder: (https://github.com/HERMON-1995/Le
 ```
 ### Install
  
- - Download and install webpack: a module bundler.
+ **cd Leaderboard-list-app-project**
+ npm install
+
  
 ### Usage
 
