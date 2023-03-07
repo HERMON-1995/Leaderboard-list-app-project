@@ -79,10 +79,16 @@ Clone this repository to your desired folder: (https://github.com/HERMON-1995/Le
   git clone [https://github.com/HERMON-1995/Leaderboard-list-app-project.git]
 ```
 ### Install
-
+ 
+ - Download and install webpack: a module bundler.
+ 
 ### Usage
 
+- Used Gitflow: development as a default branch.
+
 ### Run tests
+
+- Linter tests run: in Html, CSS and JS.
 
 ### Deployment
 
