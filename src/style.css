@@ -1,0 +1,169 @@
+body {
+  background-color: azure;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url('../Images/Body\ Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+#leader-text,
+#recent-text,
+#add-text,
+.table-name,
+.user-value,
+.score-value {
+  color: white;
+}
+
+#leader-text {
+  margin: 50px 0;
+  font-size: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: rgb(72, 12, 129);
+  display: flex;
+  justify-content: space-around;
+}
+
+#leader-text span {
+  font-size: 50px;
+}
+
+.all-cont {
+  margin-top: 80px;
+}
+
+.all-cont,
+.score-top,
+.table-name {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score {
+  width: 450px;
+  margin-left: 60px;
+}
+
+.score-top {
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+#recent-text,
+#add-text,
+#refresh-btn,
+.table-name,
+.user-value,
+.score-value,
+form #submit-btn {
+  font-weight: 600;
+}
+
+#recent-text,
+#add-text {
+  font-size: 40px;
+}
+
+form #submit-btn,
+#refresh-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#refresh-btn,
+.user-value,
+.score-value,
+.add form {
+  display: flex;
+  align-items: center;
+}
+
+#refresh-btn {
+  justify-content: center;
+  width: 25%;
+  height: 3vh;
+  background-color: rgb(128, 209, 231);
+  box-shadow: 5px 5px 5px rgb(36, 152, 184);
+  font-size: 16px;
+}
+
+#refresh-btn:hover {
+  cursor: pointer;
+  border: 1px solid rgb(23, 138, 170);
+  padding: 12px;
+}
+
+.table-name,
+#table {
+  box-shadow: 10px 10px 10px rgb(96, 22, 164);
+  border-radius: 5px;
+}
+
+.table-name {
+  margin-bottom: 20px;
+  font-size: 23px;
+  background-color: rgb(83, 12, 149);
+}
+
+#table {
+  width: 100%;
+  background-color: blueviolet;
+}
+
+.user-value,
+.score-value {
+  justify-content: center;
+  margin: 5px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(83, 17, 83);
+  font-size: 18px;
+}
+
+.add {
+  width: 35%;
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+.add #add-text {
+  text-align: center;
+}
+
+.add form {
+  flex-direction: column;
+}
+
+form .input {
+  margin-top: 30px;
+  width: 80%;
+  padding: 10px;
+}
+
+form .input::placeholder {
+  color: black;
+}
+
+form #submit-btn {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 35px;
+  width: 20%;
+  background-color: rgb(98, 228, 98);
+  box-shadow: 5px 5px 5px green;
+}
+
+form #submit-btn:hover {
+  cursor: pointer;
+  border: 1px solid rgb(128, 213, 128);
+}
