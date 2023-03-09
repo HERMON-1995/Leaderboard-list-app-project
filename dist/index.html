@@ -3,24 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaderboard list app</title>
+    <title>🏆Leaderboard list app</title>
 <script defer src="main.js"></script></head>
 <body>
   <section>
-    <h1>Leaderboard</h1>
+    <h1 id="leader-text">🏃‍♀️🧗‍♀️🏇🏂🏌️‍♀️🏄‍♀️ <span>*Leaderboard*</span> 🏊‍♀️⛹️🚴‍♀️🏋️‍♀️🤸‍♀️🤼‍♂️</h1>
     <div class="all-cont">
-
       <div class="score">
-        <div class="recent-score">
-         <h2>Recent scores</h2>
-         <button>Refresh</button>
+        <div class="score-top">
+          <h2 id="recent-text">Recent scores</h2>
+          <button id="refresh-btn" type="button">Refresh</button>
+        </div>
+        <div class="table-name">
+          <h3>Players</h3>
+          <h3>Scores</h3> 
+      </div>
+      <table id="table" class="tablescore">
+      </table>
+        <div class="score-down">
+            <div class="animate">
+            </div>
         </div>
       </div>
-
-
-      <div class="add"></div>
-
-
+      <div class="add">
+        <h2 id="add-text">Add your score</h2>
+        <form action="submit" method="post" class="form-cont">
+           <input type="text" id="name" name="text" class="input" placeholder="Your name" required>
+           <input type="text" id="score" name="text" class="input" placeholder="Your score" required>
+           <button type="submit" id="submit-btn">Submit</button>
+        </form>
+      </div>
     </div>
   </section>
 </body>
