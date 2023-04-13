@@ -5,6 +5,7 @@ const refreshBtn = document.getElementById('refresh-btn');
 const table = document.getElementById('table');
 
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/wtbEtE3phOOhgB0cemjd/scores/';
+
 const getScores = async () => {
   const response = await fetch(`${url}`);
   const data = await response.json();
@@ -20,8 +21,8 @@ const refresh = () => {
       const listItems = document.createElement('tr');
       listItems.className = 'listItems';
       listItems.innerHTML = `
-                    <td>${value.user}</td>
-                    <td>${value.score}</td>
+                    <td><div class="user-value">${value.user}</div></td>
+                    <td><div class="score-value">${value.score}</div></td>
            `;
       table.appendChild(listItems);
     });

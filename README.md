@@ -29,7 +29,7 @@
 
 # 📖 [Leaderboard-list-app-project] <a name="about-project"></a>
 
-**[Leaderboard-list-app-project]** is a simple app built with HTML and CSS to list scores.
+**[Leaderboard-list-app-project]** is a simple app built with HTML, CSS and JavaScript to list scores and players name by retrieving data from API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
