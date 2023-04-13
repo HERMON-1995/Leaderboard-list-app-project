@@ -10,25 +10,33 @@
     <h1 id="leader-text">Leaderboard</h1>
     <div class="all-cont">
       <div class="score">
+
         <div class="score-top">
           <h2 id="recent-text">Recent scores</h2>
           <button id="refresh-btn" type="button">Refresh</button>
         </div>
-        <div class="score-down">
-            <div class="top"><h3>Name: 100</h3></div>
-            <div><h3>Name: 20</h3></div>
-            <div><h3>Name: 50</h3></div>
-            <div><h3>Name: 78</h3></div>
-            <div><h3>Name: 125</h3></div>
-            <div><h3>Name: 77</h3></div>
-            <div class="bottom"><h3>Name: 42</h3></div>
-        </div>
+
+        <div class="table-name">
+          <h3>users</h3>
+          <h3>scores</h3> 
       </div>
+
+      <table id="table" class="tablescore">
+      </table>
+
+        <div class="score-down">
+            <div class="animate">
+
+            </div>
+        </div>
+
+      </div>
+
       <div class="add">
         <h2 id="add-text">Add your score</h2>
-        <form action="submit">
-           <input type="text" id="name" name="userName" class="input" placeholder="Your name" required>
-           <input type="text" id="score" name="userScore" class="input" placeholder="Your score" required>
+        <form action="submit" method="post" class="form-cont">
+           <input type="text" id="name" name="text" class="input" placeholder="Your name" required>
+           <input type="text" id="score" name="text" class="input" placeholder="Your score" required>
            <button type="submit" id="submit-btn">Submit</button>
         </form>
       </div>

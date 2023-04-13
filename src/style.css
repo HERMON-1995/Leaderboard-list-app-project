@@ -51,29 +51,20 @@ body {
 
 #refresh-btn:hover {
   cursor: pointer;
+  border: 1px solid burlywood;
 }
 
-.score-down {
-  border: 4px solid;
-}
-
-.score-down div {
-  margin: 20px 0;
-  background-color: beige;
+.table-name {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  gap: 30%;
+  border: 2px solid black;
+}
+
+#table {
+  border: 3px solid black;
   width: 100%;
-  height: 40px;
-}
-
-.score-down .top {
-  margin-top: 0;
-}
-
-.score-down .bottom {
-  margin-bottom: 0;
 }
 
 .add form {
@@ -87,6 +78,10 @@ form .input {
   width: 80%;
   height: 20px;
   padding: 5px;
+}
+
+form .input::placeholder {
+  color: black;
 }
 
 form #submit-btn {
@@ -103,4 +98,5 @@ form #submit-btn {
 
 form #submit-btn:hover {
   cursor: pointer;
+  border: 1px solid rgb(128, 213, 128);
 }
