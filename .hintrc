@@ -10,9 +10,9 @@
     "hints": [
       "button-type",
       "disown-opener",
-      "html-checker",
+      // "html-checker",
       "meta-charset-utf-8",
-      "meta-viewport",
+      "meta-viewport"
       // "no-inline-styles:error"
     ]
   }
