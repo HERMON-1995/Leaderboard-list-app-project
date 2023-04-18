@@ -1,5 +1,3 @@
-// import { AsyncDependenciesBlock } from "webpack";
-
 const form = document.querySelector('.form-cont');
 const refreshBtn = document.getElementById('refresh-btn');
 const table = document.getElementById('table');
