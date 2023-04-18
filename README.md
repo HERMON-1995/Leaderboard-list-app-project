@@ -59,11 +59,10 @@
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need to:
 
 ```sh
- Git, Webpack and linters.
- vs code
+ Set up Webpack and linters.
 ```
 
 ### Setup
@@ -133,7 +132,7 @@ npx eslint .
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-- Issues: [https://github.com/HERMON-1995/Leaderboard-list-app-project/issues/2]
+- [Issues](https://github.com/HERMON-1995/Leaderboard-list-app-project/issues/2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
