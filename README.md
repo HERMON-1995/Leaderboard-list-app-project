@@ -29,7 +29,7 @@
 
 # 📖 [Leaderboard-list-app-project] <a name="about-project"></a>
 
-**[Leaderboard-list-app-project]** is a simple app built with HTML, CSS and JavaScript to list scores and players name by retrieving data from API.
+**[Leaderboard-list-app-project]** is a web application that displays player names and scores retrieved from an API. It uses a table format and allows sorting by score and searching for specific players.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,6 +50,14 @@
 
 - **[Add Score]**
 - **[Sort Score]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [See live here](https://hermon-1995.github.io/Leaderboard-list-app-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +125,7 @@ npx eslint .
  *[HERMON Gebre]*
  
 - GitHub: [@githubhandle](https://github.com/HERMON-1995)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre-03290a228/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
