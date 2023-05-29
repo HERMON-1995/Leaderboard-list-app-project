@@ -4,6 +4,7 @@ body {
   background-image: url('../Images/Body\ Background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 7rem;
 }
 
 *,
