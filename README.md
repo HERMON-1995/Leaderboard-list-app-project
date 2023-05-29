@@ -1,4 +1,4 @@
-# Leaderboard-list-app
+# Leaderboard list app
 
 <a name="readme-top"></a>
 
@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard-list-app-project] <a name="about-project"></a>
+# 📖 [Leaderboard list app project] <a name="about-project"></a>
 
 **[Leaderboard-list-app-project]** is a web application that displays player names and scores retrieved from an API. It uses a table format and allows sorting by score and searching for specific players.
 
@@ -36,7 +36,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Tech</summary>
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
     <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
@@ -113,7 +113,7 @@ npx eslint .
 
 ### Deployment
 
-- (Deployment method using GitHub pages)
+- GitHub pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,7 +148,7 @@ npx eslint .
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please show support by staring.
+If you like this project please show support by staring.⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
